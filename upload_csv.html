@@ -2,58 +2,40 @@
 <html>
 <head>
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
 	<meta content="utf-8" http-equiv="encoding">  
 	<script src="libs/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript">  
-		//adapted from https://cmatskas.com/importing-csv-files-using-jquery-and-html5/
+		//Example from: https://gist.github.com/tanvir002700
 		$(document).ready(function(){
-		    // The event listener for the file upload
-			document.getElementById('txtFileUpload').addEventListener('change', upload, false);
-			
-			// Method that checks that the browser supports the HTML5 File API
-			function browserSupportFileUpload() {
-				var isCompatible = false;
-				if (window.File && window.FileReader && window.FileList && window.Blob) {
-				isCompatible = true;
+			$('#upload').click(function(){
+
+				var csv = $('#filename');
+				var csvFile = csv[0].files[0];
+				var ext = csv.val().split(".").pop().toLowerCase();
+
+				if($.inArray(ext, ["csv"]) === -1){
+					alert('upload csv');
+					return false;
 				}
-				return isCompatible;
-			}
-			
-			function upload(evt) {
-			if (!browserSupportFileUpload()) {
-				alert('The File APIs are not fully supported in this browser!');
-				} else {
-					var data = null;
-					var file = evt.target.files[0];
-					var reader = new FileReader();
-					reader.readAsText(file);
-					reader.onload = function(event) {
-						var csvData = event.target.result;
-						data = $.csv.toArrays(csvData);
-						if (data && data.length > 0) {
-						  alert('Imported -' + data.length + '- rows successfully!');
-						} else {
-							alert('No data to import!');
-						}
-					};
-					reader.onerror = function() {
-						alert('Unable to read ' + file.fileName);
-					};
+				if(csvFile != undefined){
+					reader = new FileReader();
+					reader.onload = function(e){
+
+						csvResult = e.target.result.split(/\r|\n|\r\n/);
+						$('.csv').append(csvResult);
+					}
+					reader.readAsText(csvFile);
 				}
-			}
-		});
+			});
+		});    
 	</script>
 </head>
-<div id="msgid">
-
-</div>
-
-<div id="dvImportSegments" class="fileupload ">
-    <fieldset>
-        <legend>Upload your CSV File</legend>
-            <input type="file" name="File Upload" id="txtFileUpload" accept=".csv" />
-   </fieldset>
-</div>
+<body>
+	<input type="file" name="filename" id="filename">
+	<button id="upload">upload</button>
+	<div class="csv"></div>
+</body>
 
 
 </html>
