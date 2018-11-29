@@ -6,14 +6,28 @@
 	<meta content="utf-8" http-equiv="encoding">  
 	<script src="libs/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript">  
+		function csvToArray(text) {
+			//from niry at https://stackoverflow.com/questions/8493195/how-can-i-parse-a-csv-string-with-javascript-which-contains-comma-in-data
+			let p = '', row = [''], ret = [row], i = 0, r = 0, s = !0, l;
+			for (l of text) {
+				if ('"' === l) {
+					if (s && l === p) row[i] += l;
+					s = !s;
+				} else if (',' === l && s) l = row[++i] = '';
+				else if ('\n' === l && s) {
+					if ('\r' === p) row[i] = row[i].slice(0, -1);
+					row = ret[++r] = [l = '']; i = 0;
+				} else row[i] += l;
+				p = l;
+			}
+			return ret;
+		};
 		//Example from: https://gist.github.com/tanvir002700
 		$(document).ready(function(){
 			$('#upload').click(function(){
-
 				var csv = $('#filename');
 				var csvFile = csv[0].files[0];
 				var ext = csv.val().split(".").pop().toLowerCase();
-
 				if($.inArray(ext, ["csv"]) === -1){
 					alert('upload csv');
 					return false;
@@ -21,8 +35,9 @@
 				if(csvFile != undefined){
 					reader = new FileReader();
 					reader.onload = function(e){
-
-						csvResult = e.target.result.split(/\r|\n|\r\n/);
+						//csvResult = e.target.result.split(/\r|\n|\r\n/);
+						csvResult = csvToArray(e.target.result);
+						console.log(csvResult);
 						$('.csv').append(csvResult);
 					}
 					reader.readAsText(csvFile);
@@ -36,7 +51,5 @@
 	<button id="upload">upload</button>
 	<div class="csv"></div>
 </body>
-
-
 </html>
 
