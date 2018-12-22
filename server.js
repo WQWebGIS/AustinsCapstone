@@ -1,42 +1,39 @@
-// https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
-// https://riptutorial.com/node-js/example/14210/single-file-upload-using-multer
-// https://www.npmjs.com/package/multer
+// https://www.techighness.com/post/node-expressjs-endpoint-to-upload-and-process-csv-file/
 
-var express =   require("express");
-var multer  =   require('multer');
-var app     =   express();
-var fs 		= require('fs');
-//add pgsql module to pass off upload csv too
-var pgsql = require('./pgsql_mod');
+'use strict';
+
+const http = require('http');
+const fs = require('fs');
+
+const express = require('express');
+const multer = require('multer');
+const csv = require('fast-csv');
+
+const Router = express.Router;
+const upload = multer({ dest: 'uploads/' });
+const app = express();
+const router = new Router();
+
+router.post('/', upload.single('userFile'), function (req, res) {
+  const fileRows = [];
+
+  // open uploaded file
+  csv.fromPath(req.file.path)
+    .on("data", function (data) {
+      fileRows.push(data); // push each row
+    })
+    .on("end", function () {
+      console.log(fileRows)
+      fs.unlinkSync(req.file.path);   // remove temp file
+      //process "fileRows" and respond
+    })
+});
+
+app.use('/upload_csv', router);
+
 
 app.get('/',function(req,res){
-      res.sendFile(__dirname + "/index.html");
-});
-
-var storage =   multer.diskStorage({
-  destination: function (req, file, callback) {
-    fs.mkdir('./uploads', function(err) {
-        if(err) {
-            console.log(err.stack)
-        } else {
-            callback(null, './uploads');
-        }
-    })
-  },
-  filename: function (req, file, callback) {
-    callback(null, file.fieldname + '-' + Date.now());
-  }
-});
-
-app.post('/upload_csv',function(req,res){
-    var upload = multer({ storage : storage}).single('userFile');
-    upload(req,res,function(err) {
-        if(err) {
-            return res.end("Error uploading file.");
-        }
-        res.end("File is uploaded");
-    });
-    //console.log("test: " + pgsql.myClient());
+    res.sendFile(__dirname + "/index.html");
 });
 
 app.get('/index.html', function (req, res) {
