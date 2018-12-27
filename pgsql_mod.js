@@ -6,7 +6,7 @@ const { Client } = require('pg')
 module.exports = {
     test: function() {
 		//keeping a variable passed from parent module
-        console.log('var is', this.myvar);
+        console.log('var is', this.fileRows);
 	},
 	myClient: function () {
 		const client = new Client({
@@ -22,9 +22,9 @@ module.exports = {
 		//Adapted from https://stackoverflow.com/questions/8899802/how-do-i-do-a-bulk-insert-in-mysql-using-node-js
 		//and https://stackoverflow.com/questions/46681278/how-to-insert-multiple-rows-using-node-postgres
 		
-		for(var i = 0; i < this.myvar.length; i++){
-			console.log(this.myvar[i][0]+' '+this.myvar[i][1]);
-			client.query('INSERT INTO wq.samples(site, value) VALUES ($1, $2) RETURNING *', [this.myvar[i][0], this.myvar[i][1]], (err, res) => {
+		for(var i = 0; i < this.fileRows.length; i++){
+			console.log(this.fileRows[i][0]+' '+this.fileRows[i][1]);
+			client.query('INSERT INTO wq.samples(site, value) VALUES ($1, $2) RETURNING *', [this.fileRows[i][0], this.fileRows[i][1]], (err, res) => {
 				console.log(err, res)
 			})
 		}

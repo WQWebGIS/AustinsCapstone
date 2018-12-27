@@ -1,0 +1,74 @@
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">  
+    <title>Prototype of interpolating water quality points</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	
+	<script src="data/2014_Jan_Nitrogen.js"></script>
+	<script src="data/2014_Feb_Nitrogen.js"></script>
+    <style>
+        #map{ height: 100% }
+    </style>
+</head>
+<body>
+
+  <div id="map"></div>
+
+  <script>
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmAttrib='Map data ? <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+    var osmTileLayer = new L.TileLayer(osmUrl, {minZoom: 2, maxZoom: 18, attribution: osmAttrib});
+    var googleSatTileLayer = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+        maxZoom: 20,
+        subdomains:['mt0','mt1','mt2','mt3']
+    });
+	
+	//Instantiate and configure the map object
+	var map = L.map('map', {
+		center: [30.44, -87.18],
+		zoom: 15,
+		layers: [osmTileLayer]
+	});
+
+	var geoJsonLayerNitroFeb14 = L.geoJson(nitro_feb14, {style: myStyle});
+	var geoJsonLayerNitroJan14 = L.geoJson(nitro_jan14, {style: myStyle});
+	
+
+	function color(x) {
+		//This uses the conditional operator as 
+		//described here https://www.w3schools.com/js/js_comparisons.asp
+		//It is a shorthand notation for an if else statement syntax
+		//that you have likely seen before
+		return x > 1500 ? '#31a354' :
+			   x > 1000 ? '#78c679' :
+			   x > 500 ? '#c2e699' :
+			   x > 0 ? '#ffffcc' :'#f7f7f7';				  
+	}
+
+	function myStyle(feature) {
+		return {
+			fillColor: color(feature.properties.GRIDCODE),
+			weight: 1,
+			opacity: 1,
+			color: 'white',
+			fillOpacity: 0.85
+		};
+	}
+	
+	//Below is the functionality to setup the layer picker
+	//it depends on the previously specified and instantiated layers
+	var baseLayers = {
+		"Sattelite": googleSatTileLayer,
+		"Streets": osmTileLayer
+	};
+	var overlays = {
+		"Feb 14": geoJsonLayerNitroFeb14, 
+		"Jan 14": geoJsonLayerNitroJan14
+	};
+	L.control.layers(baseLayers, overlays).addTo(map);
+  </script>
+</body>
+</html>
