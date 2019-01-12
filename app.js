@@ -32,7 +32,7 @@ router.post('/', upload.single('userFile'), function (req, res) {
       fs.unlinkSync(req.file.path);   // remove temp file
       console.log("file uploaded and read!");
       //now insert into pgsql
-      pgsql.myClient();
+      pgsql.uploadCSV();
       res.sendfile("water_body_map.html");
       //res.sendStatus(200);
     })

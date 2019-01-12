@@ -1,17 +1,125 @@
-<html>
-   <head>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="/icons/favicon.ico">
-		<title>Water interpolation quality prototype</title>
-   </head>
-   <body>
-		<h3>Upload water quality sample data:</h3>
-		Select a file to upload: <br />
-		<form id       =  "uploadForm"
-			enctype   =  "multipart/form-data"
-			action    =  "/upload_csv"
-			method    =  "post">
-			<input type="file" name="userFile" />
-			<input type="submit" value="Upload File" name="submit">
-		</form>
-   </body>
+		<title>CSWQM</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<style>
+			/*layout adapted from https://www.w3schools.com/css/css_website_layout.asp*/
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				margin: 0;
+			}
+
+			/* Style the header */
+			.header {
+				background-color: #f1f1f1;
+				padding: 20px;
+				text-align: center;
+			}
+
+			/* Style the top navigation bar */
+			.topnav {
+				overflow: hidden;
+				background-color: #007f00;
+			}
+
+			/* Style the topnav links */
+			.topnav a {
+				float: left;
+				display: block;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			/* Change color on hover */
+			.topnav a:hover {
+				background-color: #ddd;
+				color: black;
+			}
+
+			/* Create three unequal columns that floats next to each other */
+			.column {
+				float: left;
+				padding: 10px;
+			}
+
+			/* Left and right column */
+			.column.side {
+				width: 25%;	
+			}
+
+			/* Middle column */
+			.column.middle {
+				width: 50%;
+			}
+
+			/* Clear floats after the columns */
+			.row:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+
+			/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+			@media screen and (max-width: 600px) {
+				.column.side, .column.middle {
+					width: 100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Citizen Science Water Quality Mapping</h1>
+			<p>A prototype for a web-based water quality mapping in support of participatory modeling and mapping</p>
+		</div>
+
+		<div class="topnav">
+			<a href="https://jderekito.github.io/water_quality/index2.html" target="_blank">STORET stations in NW Florida</a>
+			<a href="https://jderekito.github.io/water_quality/" target="_blank">Sample map using Bayou Texar (test data)</a>
+		</div>
+
+		<div class="row">
+			<div class="column side">
+				<h2>Map Controls</h2>
+				<label for="waterbody">Select a water body</label>
+				<select name="waterbody" id="waterbody">
+				  <option>Bayou Texar</option>
+				  <option selected="selected">Escambia Bay</option>
+				</select>
+			</div>
+			
+			<div class="column middle">
+				<div id="map" style="width: 805px; height: 475px"></div>
+				<script>
+						// Create variable to hold map element, give initial settings to map
+						var map = L.map('map',{ center: [42.362432, -71.086086], zoom: 14});
+						L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
+				</script>
+			</div>
+			
+			<div class="column side">
+				<h2>Manage water quality data</h2>
+				<p>Upload water quality sample data:</p>
+				<p> Select a file to upload: </p>
+				<form id       =  "uploadForm"
+					enctype   =  "multipart/form-data"
+					action    =  "/upload_csv"
+					method    =  "post">
+					<input type="file" name="userFile" />
+					<input type="submit" value="Upload File" name="submit">
+				</form>
+			</div>
+		</div>
+	</body>
 </html>
