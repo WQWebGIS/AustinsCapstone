@@ -2,21 +2,31 @@
 // Leaflet w/ node tutorials: https://github.com/renelikestacos/Web-Mapping-Leaflet-NodeJS-Tutorials/blob/master/README.md
 
 'use strict';
-
+//core modules
 const http = require('http');
 const fs = require('fs');
-
 const express = require('express');
 const multer = require('multer');
 const csv = require('fast-csv');
-
+const bodyParser = require('body-parser'); //https://www.npmjs.com/package/body-parser
 const Router = express.Router;
 const upload = multer({ dest: 'uploads/' });
 const app = express();
 const router = new Router();
+var path = require("path");
+
 //add pgsql module to pass off upload csv too
 var pgsql = require('./pgsql_mod');
 const fileRows = [];
+
+// set up the template engine
+//const request = require('request');
+//https://codeburst.io/build-a-weather-website-in-30-minutes-with-node-js-express-openweather-a317f904897b
+app.use(express.static('public'));
+app.set('view engine', 'ejs')
+//for dom reading
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended:true}));
 
 router.post('/', upload.single('userFile'), function (req, res) {
   // open uploaded file
@@ -40,19 +50,21 @@ router.post('/', upload.single('userFile'), function (req, res) {
 
 app.use('/upload_csv', router);
 
-//Serves all the request which includes /data in the url from data folder
-//See: http://www.tutorialsteacher.com/nodejs/serving-static-files-in-nodejs
-app.use('/data', express.static(__dirname + '/data'));
-
-
-app.get('/',function(req,res){
-    res.sendFile(__dirname + "/index.html");
+app.use('/select_water_body', function (req, res) {
+  //console.log(req.body.water_body);
+  //res.sendfile("index.html");
+  // Render a set of data to console
+  console.log(compiledFunction({
+    name: 'Timothy'
+  }));
+  res.render(compiledFunction({
+    name: 'Forbes'
+  }));
 });
 
-app.get('/index.html', function (req, res) {
-   res.sendFile( __dirname + "/" + "index.html" );
+app.get('/', function (req, res) {
+  res.render('index');
 })
-
 
 var server = app.listen(8080, function () {
    var host = server.address().address
