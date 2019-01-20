@@ -7,6 +7,10 @@ body {
   color: #666;
 }
 
+.my-leaflet-map-container img {
+    max-height: none;
+}
+
 /* STRUCTURE */
 
 .wrapper {
