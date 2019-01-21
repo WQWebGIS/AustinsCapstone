@@ -20,8 +20,17 @@
           <div id="map" style="width: 100%; height: 100%"></div>
           <script>
               // Create variable to hold map element, give initial settings to map
-              var map = L.map('map',{ center: [30.44, -87.18], zoom: 14});
-              L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
+              var map = L.map('map',{ center: [30.44, -87.18], zoom: 13});
+              L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { 
+                  attribution: '© OpenStreetMap'
+                }).addTo(map);
+                //Below is JS way to deal with map not loading 
+                //all tiles on load as described here
+                //https://stackoverflow.com/questions/38832273/leafletjs-not-loading-all-tiles-until-moving-map
+                var delayInMilliseconds = 0; //1 second
+                  setTimeout(function() {
+                    map.invalidateSize();
+                }, delayInMilliseconds);                
           </script>
         </div>
         
