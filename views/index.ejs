@@ -20,7 +20,7 @@
           <div id="map" style="width: 100%; height: 100%"></div>
           <script>
               // Create variable to hold map element, give initial settings to map
-              var map = L.map('map',{ center: [30.44, -87.18], zoom: 13});
+              var map = L.map('map',{ center: [<%= wb_options[0][1] %> ], zoom: <%= wb_options[0][3] %>});
               L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { 
                   attribution: '© OpenStreetMap'
                 }).addTo(map);
@@ -41,11 +41,12 @@
             action="/select_water_body" 
             method="post"
             name="water_body_frm">
-            <select name="water_body">
-              <option>Bayou Texar</option>
-              <option selected="selected">Escambia Bay</option>
+            <select name="water_body" onchange="this.form.submit()">
+              <% wb_options.forEach(function(wb_options){ %>
+                <option value="<%= wb_options[0] %>" <%= wb_options[2] %>><%= wb_options[0] %></option>
+              <% }) %>
             </select>
-            <input type="submit"/>
+            <!--<input type="submit"/>-->
           </form>
           <hr size="5">
           <p>Upload new water quality data:</p>

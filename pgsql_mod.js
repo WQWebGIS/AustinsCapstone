@@ -2,21 +2,31 @@
 // 
 
 const { Client } = require('pg')
+const client = new Client({
+	user: 'postgres',
+	host: 'localhost',
+	database: 'water_quality',
+	password: 'password',
+	port: 5432,
+})
 
 module.exports = {
     test: function() {
 		//keeping a variable passed from parent module
         console.log('var is', this.fileRows);
 	},
+	getWaterBodies: function () {
+		client.connect();
+		// callback
+		client.query('SELECT NOW() as now', (err, res) => {
+			if (err) {
+			console.log(err.stack)
+			} else {
+			console.log(res.rows[0])
+			}
+		});
+	},
 	uploadCSV: function () {
-		const client = new Client({
-			user: 'postgres',
-			host: 'localhost',
-			database: 'water_quality',
-			password: 'password',
-			port: 5432,
-		})
-	
 		client.connect() //Need to make the connection
 		//We want to insert an array of arrays (result of CSV pop var)
 		//Adapted from https://stackoverflow.com/questions/8899802/how-do-i-do-a-bulk-insert-in-mysql-using-node-js
@@ -28,6 +38,6 @@ module.exports = {
 				console.log(err, res)
 			})
 		}
-		//Do we need to close the client
+		//Do we need to close the client?
 	}
 }
