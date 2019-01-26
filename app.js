@@ -53,10 +53,10 @@ app.use('/upload_csv', router);
 app.use('/select_water_body', function (req, res) {
   console.log(req.body.water_body);
   if (req.body.water_body=="Escambia Bay") {
-    var wb_options = [["Escambia Bay","30.51,-87.13","selected",11], ["Bayou Texar","30.44, -87.18","",16]];
+    var wb_options = [["Escambia Bay","30.51,-87.13","selected",12], ["Bayou Texar","30.430264,-87.189095","",15]];
   }
   else {
-    var wb_options = [["Bayou Texar","30.44, -87.18","selected",16], ["Escambia Bay","30.51,-87.13","",11]];
+    var wb_options = [["Bayou Texar","30.430264,-87.189095","selected",15], ["Escambia Bay","30.51,-87.13","",12]];
   }
   res.render('index', {wb_options});
 });
@@ -65,7 +65,7 @@ app.get('/', function (req, res) {
   //TODO: wb_options should be populated from a pgsql query on the 
   //water bodies table. But, for now we will hardcode these
   //https://stackoverflow.com/questions/34878180/html-select-option-with-ejs/34878746
-  var wb_options = [["Bayou Texar","30.44, -87.18","selected",16], ["Escambia Bay","30.51,-87.13","",11]];
+  var wb_options = [["Bayou Texar","30.430264,-87.189095","selected",15], ["Escambia Bay","30.51,-87.13","",12]];
   res.render('index', {wb_options});
 })
 
