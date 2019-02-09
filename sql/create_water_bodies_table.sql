@@ -3,7 +3,7 @@ DROP TABLE wq.water_bodies;
 CREATE TABLE wq.water_bodies (
   "gid" serial,
   "site_name" varchar(25),
-  "waterbody_id" integer,
+  "waterbody_id" varchar(30),
   "huc" integer,
   "type" varchar(30)
 );
