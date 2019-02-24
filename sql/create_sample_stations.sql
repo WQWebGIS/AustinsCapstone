@@ -13,7 +13,7 @@ CREATE TABLE wq.sample_stations (
   "station_id" varchar(30),
   "station_name" varchar(60),
   "county" varchar(30),
-  "waterbody_id" varchar(30),
+  "waterbody_id" integer,
   "primary_type" varchar(30),
   "latitude" float, 
   "longitude" float,

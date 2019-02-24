@@ -66,6 +66,8 @@ app.get('/', function (req, res) {
   //water bodies table. But, for now we will hardcode these
   //https://stackoverflow.com/questions/34878180/html-select-option-with-ejs/34878746
   var wb_options = [["Bayou Texar","30.430264,-87.189095","selected",15], ["Escambia Bay","30.51,-87.13","",12]];
+  //var station_points = pgsql.getSampleStations();
+  pgsql.getSampleStations();
   res.render('index', {wb_options});
 })
 
