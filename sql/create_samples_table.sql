@@ -4,25 +4,23 @@ CREATE TABLE wq.samples (
   "org_id" varchar(50),
   "station_id" varchar(50),
   "station_name" varchar(100),
-  "waterbody_id" integer,
   "characteristic_id" integer,
   "characteristic" varchar(100),
   "result_value" float,
-  "unit" varchar(10),
-  "date_added" varchar(100),
-  "time_zone" varchar(100),
+  "result_unit" varchar(10),
+  "date_tested" varchar(100),
   "replicate_num" varchar(100),
   "activity_medium" varchar(100),
   "activity_type" varchar(100),
   "activity_category" varchar(100),
-  "relative_depth" varchar(100),
+  "rel_depth" varchar(100),
   "activity_depth" varchar(100),
   "depth_unit" varchar(10),
   "sample_fraction" varchar(100),
   "value_type" varchar(100),
   "result_comment" varchar(100),
   "value_qualifier" varchar(100),
-  "analytyical_procedure" varchar(100),
+  "analytical_procedure" varchar(100),
   "procedure_source" varchar(100),
   "matrix" varchar(100)
 );
@@ -30,7 +28,7 @@ CREATE TABLE wq.samples (
 SELECT * FROM wq.samples;
 DELETE FROM wq.samples;
 
-INSERT INTO wq.samples (org_id, station_id, station_name, waterbody_id, characteristic_id, characteristic, result_value, unit, date_added, time_zone, replicate_num, activity_medium, activity_type, activity_category, relative_depth, activity_depth, depth_unit, sample_fraction, value_type, result_comment, value_qualifier, analytyical_procedure, procedure_source, matrix)
+INSERT INTO wq.samples (org_id, station_id, station_name, characteristic_id, characteristic, result_value, result_unit, date_tested, replicate_num, activity_medium, activity_type, activity_category, rel_depth, activity_depth, depth_unit, sample_fraction, value_type, result_comment, value_qualifier, analytical_procedure, procedure_source, matrix)
 	VALUES ('21FLFMRI', 'PEN200308', 'Pensacola - Escambia Bay', 2, 1, 'Dissolved Oxygen', 7, 'mg/l', '7/8/2003 03:31:00', 'CDT', 0, 'Water', 'Field Msr/Obs', 'Routine Msr/Obs', 'No Entry', 0.2, 'm', 'Total', 'Actual', 'No Entry', 'No Entry', 'Proc 1', '21FLFMRI', 'Surface Water');
 
 INSERT INTO wq.samples (org_id, station_id, station_name, waterbody_id, characteristic_id, characteristic, result_value, unit, date_added, time_zone, replicate_num, activity_medium, activity_type, activity_category, relative_depth, activity_depth, depth_unit, sample_fraction, value_type, result_comment, value_qualifier, analytyical_procedure, procedure_source, matrix)
