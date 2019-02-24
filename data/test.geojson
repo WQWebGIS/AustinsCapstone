@@ -1,0 +1,24 @@
+{
+    "id": 5,
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -87.187167,
+            30.440389
+        ]
+    },
+    "properties": {
+        "huc": "3140105",
+        "datum": "NAD83",
+        "county": "ESCAMBIA",
+        "org_id": "WHWQA",
+        "latitude": 30.440389,
+        "org_name": "Washington High Water Quality Academy",
+        "longitude": -87.187167,
+        "station_id": "Site2",
+        "primary_type": "Estuary",
+        "station_name": "Hyde Park Road",
+        "waterbody_id": "1"
+    }
+}
