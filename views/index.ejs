@@ -31,6 +31,13 @@
                   setTimeout(function() {
                     map.invalidateSize();
                 }, delayInMilliseconds); 
+                //See: https://stackoverflow.com/questions/37121005/when-i-json-stringifyobject-i-get-a-crazy-string-as-a-value
+                //and: https://stackoverflow.com/questions/11151632/passing-an-object-to-client-in-node-express-ejs/18106721
+                //var geojsonStations = <%- geojsonStations %>; //this works for only one
+                var geojsonStations = <%- JSON.stringify(geojsonStations) %>;
+                //Working test of geojson:
+                //var geojsonStations = {"type":"Feature","geometry":{"type":"Point","coordinates":[-87.0999951853816,30.4499943805619]},"properties":{"hello":"world"}};
+                L.geoJSON(geojsonStations).addTo(map);
           </script>
         </div>
         

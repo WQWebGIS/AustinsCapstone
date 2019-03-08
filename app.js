@@ -52,23 +52,44 @@ app.use('/upload_csv', router);
 
 app.use('/select_water_body', function (req, res) {
   console.log(req.body.water_body);
+  var active_wb_index;
   if (req.body.water_body=="Escambia Bay") {
     var wb_options = [["Escambia Bay","30.51,-87.13","selected",12], ["Bayou Texar","30.430264,-87.189095","",15]];
+    active_wb_index = 2;
   }
   else {
     var wb_options = [["Bayou Texar","30.430264,-87.189095","selected",15], ["Escambia Bay","30.51,-87.13","",12]];
+    active_wb_index = 1;
   }
-  res.render('index', {wb_options});
+  pgsql.getSampleStations(active_wb_index).then(function(geojson_res){ 
+    var geoJSONObjs = [];
+    geojson_res.forEach(function(value, idx) {
+      geoJSONObjs.push(value.jsb);
+    });
+    res.render('index', {
+      wb_options: wb_options,
+      geojsonStations: geoJSONObjs
+    });
+ });
 });
 
 app.get('/', function (req, res) {
   //TODO: wb_options should be populated from a pgsql query on the 
-  //water bodies table. But, for now we will hardcode these
-  //https://stackoverflow.com/questions/34878180/html-select-option-with-ejs/34878746
+  //See: https://stackoverflow.com/questions/34878180/html-select-option-with-ejs/34878746
   var wb_options = [["Bayou Texar","30.430264,-87.189095","selected",15], ["Escambia Bay","30.51,-87.13","",12]];
-  //var station_points = pgsql.getSampleStations();
-  pgsql.getSampleStations();
-  res.render('index', {wb_options});
+  //Need to do asynch DB call using promises
+  //See: https://stackoverflow.com/questions/50968385/in-node-pg-client-query-doesnt-return
+  //Note to self: promises are hard
+  pgsql.getSampleStations(1).then(function(geojson_res){ 
+      var geoJSONObjs = [];
+      geojson_res.forEach(function(value, idx) {
+        geoJSONObjs.push(value.jsb);
+      });
+      res.render('index', {
+        wb_options: wb_options,
+        geojsonStations: geoJSONObjs
+      });
+   });
 })
 
 var server = app.listen(8080, function () {

@@ -8,21 +8,17 @@ const client = new Client({
 	password: 'password',
 	port: 5432,
 })
-
+client.connect();
 module.exports = {
-	getSampleStations: function () {
-		client.connect();
+	getSampleStations: function (wb_index) {
 		// callback
-		client.query('SELECT * FROM wq.get_wb_json(2);', (err, res) => {
-			if (err) {
-				console.log(err.stack)
-			} else {
-				console.log(res.rows)
-			}
-		});
+		return new Promise(function (resolve, reject) {
+			client.query('SELECT * FROM wq.get_wb_json(' + wb_index + ');')
+				.then(function (res) { resolve(res.rows) })
+				.catch(function (e) { reject(e.stack) });
+		});	
 	},
 	getWaterBodies: function () {
-		client.connect();
 		// callback
 		client.query('SELECT NOW() as now', (err, res) => {
 			if (err) {
@@ -33,7 +29,6 @@ module.exports = {
 		});
 	},
 	uploadCSV: function () {
-		client.connect() //Need to make the connection
 		//We want to insert an array of arrays (result of CSV pop var)
 		//Adapted from https://stackoverflow.com/questions/8899802/how-do-i-do-a-bulk-insert-in-mysql-using-node-js
 		//and https://stackoverflow.com/questions/46681278/how-to-insert-multiple-rows-using-node-postgres
