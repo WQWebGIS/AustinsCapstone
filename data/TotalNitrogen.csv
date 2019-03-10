@@ -1,0 +1,273 @@
+org_id,station_id,station_name,characteristic_id,characteristic,result_value,result_unit,date_tested,replicate_num,activity_medium,activity_type,activity_category,rel_depth,activity_depth,depth_unit,sample_fraction,value_type,VALUE_QUALIFIER,analytical_procedure,procedure_source,matrix
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,900,ug/l,9/10/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,900,ug/l,9/24/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,500,ug/l,10/8/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1200,ug/l,10/23/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1900,ug/l,11/5/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1500,ug/l,11/19/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1000,ug/l,1/14/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,2566,ug/l,1/31/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1000,ug/l,2/11/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,300,ug/l,2/25/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,100,ug/l,4/1/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,0,ug/l,4/16/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,500,ug/l,9/2/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,0,ug/l,9/16/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,700,ug/l,9/30/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,2200,ug/l,10/14/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1000,ug/l,10/28/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,900,ug/l,11/12/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,160,ug/l,1/13/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,0,ug/l,1/27/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,230,ug/l,2/10/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,0,ug/l,2/24/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1400,ug/l,3/10/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,140,ug/l,4/7/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1300,ug/l,4/21/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1300,ug/l,7/1/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1000,ug/l,8/4/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1400,ug/l,9/1/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1800,ug/l,9/15/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1600,ug/l,9/29/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,600,ug/l,10/14/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,2000,ug/l,11/2/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1100,ug/l,11/12/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1600,ug/l,11/24/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,600,ug/l,12/8/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,240,ug/l,1/12/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,900,ug/l,1/26/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1200,ug/l,2/9/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1000,ug/l,2/24/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1800,ug/l,3/8/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1200,ug/l,3/29/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,700,ug/l,4/12/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1000,ug/l,4/26/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,900,ug/l,8/30/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,900,ug/l,9/27/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,200,ug/l,10/12/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1200,ug/l,10/25/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1300,ug/l,11/8/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1100,ug/l,1/10/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1400,ug/l,1/24/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1800,ug/l,2/9/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1300,ug/l,2/22/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,600,ug/l,3/8/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1300,ug/l,3/28/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1800,ug/l,4/20/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,2100,ug/l,8/29/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1200,ug/l,9/13/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1400,ug/l,9/26/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1100,ug/l,10/10/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,2550,ug/l,10/24/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1700,ug/l,11/7/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1800,ug/l,11/14/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,0,ug/l,1/9/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1300,ug/l,1/23/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1000,ug/l,2/6/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,2200,ug/l,2/20/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,800,ug/l,3/6/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site1,12th Ave Pumping Station,12,Total Nitrogen,1000,ug/l,4/10/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,400,ug/l,9/10/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,100,ug/l,9/24/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,8600,ug/l,10/8/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,500,ug/l,10/23/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1000,ug/l,11/5/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,300,ug/l,11/19/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,500,ug/l,1/14/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1700,ug/l,1/31/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,300,ug/l,2/11/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1100,ug/l,2/25/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,0,ug/l,4/1/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,400,ug/l,4/16/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,0,ug/l,9/2/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,300,ug/l,9/16/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,0,ug/l,9/30/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,0,ug/l,10/14/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,300,ug/l,10/28/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,700,ug/l,11/12/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,60,ug/l,1/13/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,0,ug/l,1/27/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,0,ug/l,2/10/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,200,ug/l,2/24/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,600,ug/l,3/10/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,60,ug/l,4/7/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1300,ug/l,4/21/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,300,ug/l,7/1/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,500,ug/l,8/4/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,800,ug/l,9/1/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,200,ug/l,9/15/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,900,ug/l,9/29/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,200,ug/l,10/14/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,600,ug/l,11/2/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,300,ug/l,11/12/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,200,ug/l,11/24/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1300,ug/l,12/8/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,140,ug/l,1/12/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,200,ug/l,1/26/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1200,ug/l,2/9/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,800,ug/l,2/24/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1200,ug/l,3/8/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,600,ug/l,3/29/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,600,ug/l,4/12/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,900,ug/l,4/26/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,0,ug/l,8/30/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,0,ug/l,9/27/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,0,ug/l,10/12/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,300,ug/l,10/25/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,700,ug/l,11/8/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,500,ug/l,1/10/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1300,ug/l,1/24/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1000,ug/l,2/9/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,900,ug/l,2/22/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,2200,ug/l,3/8/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1300,ug/l,3/28/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1000,ug/l,4/20/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,400,ug/l,8/29/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,300,ug/l,9/13/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,400,ug/l,9/26/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,700,ug/l,10/10/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,90,ug/l,10/24/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1900,ug/l,11/7/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1200,ug/l,11/14/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,0,ug/l,1/9/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1000,ug/l,1/23/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,200,ug/l,2/6/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,1000,ug/l,2/20/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,300,ug/l,3/6/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site2,Hyde Park Road,12,Total Nitrogen,0,ug/l,4/10/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,No Entry,Water
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,200,ug/l,9/10/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,9/24/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,10/8/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1500,ug/l,10/23/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1100,ug/l,11/5/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1000,ug/l,11/19/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,400,ug/l,1/14/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1300,ug/l,1/31/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,200,ug/l,2/11/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,2/25/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,4/1/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,4/16/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,9/2/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,9/16/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,9/30/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,300,ug/l,10/14/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1400,ug/l,10/28/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,300,ug/l,11/12/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,80,ug/l,1/13/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,1/27/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,2/10/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,2/24/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,400,ug/l,3/10/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,60,ug/l,4/7/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,900,ug/l,4/21/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,200,ug/l,7/1/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1400,ug/l,8/4/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,9/1/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,300,ug/l,9/15/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,700,ug/l,9/29/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,100,ug/l,10/14/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,700,ug/l,11/2/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,300,ug/l,11/12/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,500,ug/l,11/24/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,600,ug/l,12/8/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,150,ug/l,1/12/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1000,ug/l,1/26/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,2/9/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,700,ug/l,2/24/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1000,ug/l,3/8/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,800,ug/l,3/29/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,100,ug/l,4/12/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,900,ug/l,4/26/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,8/30/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,100,ug/l,9/27/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,10/12/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,300,ug/l,10/25/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,300,ug/l,11/8/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,400,ug/l,1/10/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,800,ug/l,1/24/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,900,ug/l,2/9/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,800,ug/l,2/22/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,800,ug/l,3/8/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,500,ug/l,3/28/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1200,ug/l,4/20/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,100,ug/l,8/29/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,500,ug/l,9/13/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,800,ug/l,9/26/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1300,ug/l,10/10/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,360,ug/l,10/24/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1100,ug/l,11/7/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,700,ug/l,11/14/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1100,ug/l,1/9/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,1000,ug/l,1/23/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,2/6/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,800,ug/l,2/20/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,600,ug/l,3/6/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site3,Boat Launch (Oyster Barn),12,Total Nitrogen,0,ug/l,4/10/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,300,ug/l,9/10/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,300,ug/l,9/24/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,10/8/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,1100,ug/l,10/23/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,300,ug/l,11/5/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,1000,ug/l,11/19/2013,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,500,ug/l,1/14/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,1400,ug/l,1/31/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,400,ug/l,2/11/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,2/25/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,4/1/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,4/16/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,9/2/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,9/16/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,9/30/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,10/14/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,400,ug/l,10/28/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,600,ug/l,11/12/2014,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,60,ug/l,1/13/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,1/27/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,2/10/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,2/24/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,200,ug/l,3/10/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,4/7/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,2800,ug/l,4/21/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,200,ug/l,7/1/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,100,ug/l,8/4/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,9/1/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,220,ug/l,9/15/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,1100,ug/l,9/29/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,200,ug/l,10/14/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,300,ug/l,11/2/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,100,ug/l,11/12/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,500,ug/l,11/24/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,1000,ug/l,12/8/2015,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,200,ug/l,1/12/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,700,ug/l,1/26/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,400,ug/l,2/9/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,900,ug/l,2/24/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,500,ug/l,3/8/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,1000,ug/l,3/29/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,4/12/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,1000,ug/l,4/26/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,8/30/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,400,ug/l,9/27/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,10/12/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,300,ug/l,10/25/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,400,ug/l,11/8/2016,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,500,ug/l,1/10/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,800,ug/l,1/24/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,700,ug/l,2/9/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,800,ug/l,2/22/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,700,ug/l,3/8/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,600,ug/l,3/28/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,300,ug/l,4/20/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,100,ug/l,8/29/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,500,ug/l,9/13/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,1100,ug/l,9/26/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,1400,ug/l,10/10/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,390,ug/l,10/24/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,1200,ug/l,11/7/2017,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,300,ug/l,11/14/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,0,ug/l,1/9/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,900,ug/l,1/23/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,700,ug/l,2/6/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,600,ug/l,2/20/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,800,ug/l,3/6/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,
+WHWQA,Site4,Dog Beach at Bayview Park,12,Total Nitrogen,400,ug/l,4/10/2018,No Entry,Water,Sample,Routine Sample,No Entry,No Entry,m,Total,Actual,No Entry,No Entry,,

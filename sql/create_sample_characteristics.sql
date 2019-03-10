@@ -37,3 +37,6 @@ INSERT INTO wq.sample_characteristics (characteristic_id, name)
 
 INSERT INTO wq.sample_characteristics (characteristic_id, name)
     VALUES (11, 'Nitrogen, ammonia (NH3) as NH3');
+	
+INSERT INTO wq.sample_characteristics (characteristic_id, name)
+    VALUES (12, 'Total Nitrogen');
