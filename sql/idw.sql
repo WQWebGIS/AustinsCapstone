@@ -38,7 +38,7 @@ ORDER BY grid.gid;
 -- SELECT that obtained the inverse distance weighting for the 
 -- average sample values group by the grid id value. 
 SELECT grid.gid, 
-sum(averages.avg_result/ST_Distance(ss.geom::geography, grid.geom_grid::geography))/sum(1/ST_Distance(ss.geom::geography, grid.geom_grid::geography)) as cell_idw_val
+sum(averages.avg_result/ST_Distance(ss.geom::geography, ST_Centroid(grid.geom_grid)::geography))/sum(1/ST_Distance(ss.geom::geography, ST_Centroid(grid.geom_grid)::geography)) as cell_idw_val
 FROM wq.sample_stations as ss, wq.fishnet_bt_fit as grid
 CROSS JOIN 
 	(SELECT s.station_id, avg(s.result_value) as avg_result
@@ -58,14 +58,14 @@ UPDATE wq.fishnet_bt_fit
 	SET est_nitrogen=subquery.cell_idw_val
 	FROM 
 		(SELECT grid.gid, 
-			sum(averages.avg_result/ST_Distance(ss.geom::geography, grid.geom_grid::geography))/sum(1/ST_Distance(ss.geom::geography, grid.geom_grid::geography)) as cell_idw_val
+			sum(averages.avg_result/ST_Distance(ss.geom::geography, ST_Centroid(grid.geom_grid)::geography))/sum(1/ST_Distance(ss.geom::geography, ST_Centroid(grid.geom_grid)::geography)) as cell_idw_val
 			FROM wq.sample_stations as ss, wq.fishnet_bt_fit as grid
 			CROSS JOIN 
 				(SELECT s.station_id, avg(s.result_value) as avg_result
 					FROM wq.samples as s
 					WHERE characteristic_id=3
 					GROUP BY s.station_id) as averages
-				WHERE ss.station_id=averages.station_id AND ST_Distance(ss.geom::geography, grid.geom_grid::geography) != 0																							  
+				WHERE ss.station_id=averages.station_id 																					  
 			GROUP BY grid.gid
 			ORDER BY cell_idw_val) AS subquery
 	WHERE wq.fishnet_bt_fit.gid=subquery.gid;
