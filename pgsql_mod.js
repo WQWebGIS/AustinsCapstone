@@ -10,6 +10,14 @@ const client = new Client({
 })
 client.connect();
 module.exports = {
+	getInterpolatedLayer: function (wb_index) {
+		// callback
+		return new Promise(function (resolve, reject) {
+			client.query('SELECT * FROM wq.get_interp_json(' + wb_index + ');')
+				.then(function (res) { resolve(res.rows) })
+				.catch(function (e) { reject(e.stack) });
+		});	
+	},
 	getSampleStations: function (wb_index) {
 		// callback
 		return new Promise(function (resolve, reject) {

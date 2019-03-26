@@ -50,6 +50,29 @@ router.post('/', upload.single('userFile'), function (req, res) {
 
 app.use('/upload_csv', router);
 
+app.use('/interp_water_body', function (req, res) {
+  console.log("interpolate...");
+  var active_wb_index;
+  if (req.body.water_body=="Escambia Bay") {
+    var wb_options = [["Escambia Bay","30.51,-87.13","selected",12], ["Bayou Texar","30.430264,-87.189095","",15]];
+    active_wb_index = 2;
+  }
+  else {
+    var wb_options = [["Bayou Texar","30.430264,-87.189095","selected",15], ["Escambia Bay","30.51,-87.13","",12]];
+    active_wb_index = 1;
+  }
+  pgsql.getInterpolatedLayer(active_wb_index).then(function(geojson_res){ 
+    var geoJSONObjs = [];
+    geojson_res.forEach(function(value, idx) {
+      geoJSONObjs.push(value.jsb);
+    });
+    res.render('index', {
+      wb_options: wb_options,
+      geojsonGrid: geoJSONObjs
+    });
+ });
+});
+
 app.use('/select_water_body', function (req, res) {
   console.log(req.body.water_body);
   var active_wb_index;
