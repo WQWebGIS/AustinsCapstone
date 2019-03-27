@@ -9,6 +9,12 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <style>
+      #legend_container > img {
+        float: left;
+        margin: 0 auto;
+      }
+    </style>
 	</head>
 	<body>
 		<h2>
@@ -42,29 +48,44 @@
                   // Do something with more than 1 recipe
                   var geojsonGrid = <%- JSON.stringify(geojsonGrid) %>;
                   L.geoJSON(geojsonGrid, {style: nitroStyle}).addTo(map);
+                  delay_load_legend();
                 <% } %>
 
                 function color(x) {
-                  return x > 750 ? '#31a354' :
-                      x > 700 ? '#78c679' :
-                      x > 650 ? '#c2e699' :
-                      x > 600 ? '#ffffcc' :'#f7f7f7';				  
+                  return x > 1063 ? '#08519C' :
+                      x > 896 ? '#3182BD' :
+                      x > 754 ? '#6BAED6' :
+                      x > 684 ? '#BDD7E7' :'#EFF3FF';				  
                 };
 
                 function nitroStyle(feature) {
                   return {
                     fillColor: color(feature.properties.est_nitrogen),
-                    weight: 1,
+                    weight: .25,
                     opacity: 1,
                     color: 'white',
                     fillOpacity: 0.85
                   };
                 };
+
+
+                function delay_load_legend() {
+                    myVar = setTimeout(insert_legend, 250);
+                }
+
+                function insert_legend(){
+                  var img = document.createElement("img");
+                  img.src = "nitro_legend.png";
+                  img.style.width = "175px";
+                  img.style.height = "200px"; 
+                  var src = document.getElementById("legend_container");
+                  src.appendChild(img);
+                }
           </script>
         </div>
         
         <div class="column">
-          <h2>Map Controls</h2>
+          <div id="legend_container"></div>
           <label for="waterbody">Select a water body</label>
           <form id="water_body_frm_id" 
             action="/select_water_body" 
@@ -88,7 +109,7 @@
               <input type="radio" name="optradio" disabled>Dissolved oxygen
             </label>
             <label class="inline">
-              <input type="submit" value="Interpolate" name="interpolate">
+              <input type="submit" value="Interpolate" name="Interpolate" id="Interpolate">
             </label>
           </form>
           <hr size="5">

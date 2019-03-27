@@ -1,3 +1,9 @@
-SELECT * FROM wq.samples;
+CREATE TABLE wq.sample_upload (
+     sample_id integer,
+     sample_val  float
+);
 
-DELETE FROM wq.samples;
+SELECT * FROM wq.sample_upload;
+
+DELETE FROM wq.sample_upload;
+

@@ -22,7 +22,7 @@ const fileRows = [];
 // set up the template engine
 //const request = require('request');
 //https://codeburst.io/build-a-weather-website-in-30-minutes-with-node-js-express-openweather-a317f904897b
-app.use(express.static('public'));
+app.use(express.static('public')); //https://stackoverflow.com/questions/44764693/why-node-js-not-recognizing-image-path/44765064
 app.set('view engine', 'ejs')
 //for dom reading
 app.use(bodyParser.json());
